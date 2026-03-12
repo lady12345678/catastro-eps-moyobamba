@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/catastro-eps-moyobamba/',
   plugins: [react()],
-  base: '/catastro-eps-moyobamba/', 
 })
