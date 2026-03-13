@@ -4,35 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EPS Moyobamba - Catastro</title>
-    
-    <!-- Corregido: Sin la barra inicial para que funcione en GitHub Pages -->
+
+    <!-- Manifest -->
     <link rel="manifest" href="/catastro-eps-moyobamba/assets/manifest-BxCEXaiC.json">
-    
+
+    <!-- Color de barra móvil -->
     <meta name="theme-color" content="#1e293b">
 
+    <!-- Tailwind CDN (solo desarrollo) -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               eps: {
-                blue: '#1e293b',
-                light: '#3b82f6',
+                blue: "#1e293b",
+                light: "#3b82f6"
               }
             }
           }
         }
       }
     </script>
+
     <style>
-      .no-scrollbar::-webkit-scrollbar { display: none; }
-      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
     </style>
+
     <script type="module" crossorigin src="/catastro-eps-moyobamba/assets/index-C2nZeSth.js"></script>
   </head>
+
   <body>
     <div id="root"></div>
-    <!-- Corregido: He quitado la "/" antes de "src" -->
+
+    <!-- Punto de entrada React -->
+
   </body>
 </html>
