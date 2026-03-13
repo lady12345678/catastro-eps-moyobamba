@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EPS Moyobamba - Catastro</title>
     
-    <!-- ESTA ES LA LÍNEA QUE VINCULA EL MANIFIESTO -->
-    <link rel="manifest" href="/manifest.json">
-    <!-- Color de la barra de estado en el móvil -->
+    <!-- Corregido: Sin la barra inicial para que funcione en GitHub Pages -->
+    <link rel="manifest" href="manifest.json">
+    
     <meta name="theme-color" content="#1e293b">
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -32,6 +32,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <!-- Corregido: He quitado la "/" antes de "src" -->
+    <script type="module" src="src/main.jsx"></script>
   </body>
 </html>
