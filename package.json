@@ -1,6 +1,7 @@
 {
 "name": "react-project",
 "private": true,
+"homepage": "https://lady12345678.github.io/catastro-eps-moyobamba",
 "version": "0.0.0",
 "type": "module",
 "scripts": {
